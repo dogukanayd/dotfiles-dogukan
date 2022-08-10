@@ -1,4 +1,4 @@
-# Configuration for Alacritty, the GPU enhanced terminal emulator
+#Configuration for Alacritty, the GPU enhanced terminal emulator
 import:
   - "/Users/dogukanaydogdu/.config/alacritty/color.yml"
 
@@ -25,18 +25,14 @@ font:
   italic:
     family: Operator Mono
     style: Italic
-  size: 15
+  size: 14
   offset:
     x: 1
     y: 1
   builtin_box_drawing: true
+  use_thin_strokes: true
 
 custom_cursor_colors: true
-
-colors:
-  primary:
-    background: '0x191919'
-    foreground: '0xeaeaea'
 
 mouse:
   # Click settings
